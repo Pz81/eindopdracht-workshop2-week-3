@@ -8,18 +8,31 @@
     padding: 0;
 }
 .aside{
-    width: calc(20.83% - 4px);
+     width: calc(25% - 4px); 
     border: 2px solid black;
     height: 1000px;
-    float: left;
+   
 }
 .main {
-    width: calc(70,83% - 4px);
+    width: calc(75% - 4px);
     height: 1000px;
     border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main img {
+   
+    margin: 4%;
 }
 .footer{
     width: 100%;
     background-color: rgb(34, 116, 40);
     height: 60px;
+}
+.row {
+    display: flex;
+}
+.productrow {
+    
+    display: block;
 }
